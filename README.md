@@ -11,7 +11,7 @@
 6. Copy the text from the file created in the `output` folder into the ModuleScript so it looks like this -
 ```lua
   local module = {}
-  module.Image = '(text from the output file)'
+    module.Image = '(text from the output file)'
   return module
 ```
 
