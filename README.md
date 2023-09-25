@@ -4,7 +4,7 @@
 
 ## Setup
 1. Extract `image_encoder.rar` and install dependencies (PIL, json, os)
-2. Drag your images into the `input` folder.
+2. Drag your images into the `input` folder. (Must be .png)
 3. Run main.py.
 4. Import `Modules.rbxm` into Roblox Studio and ungroup it in ReplicatedStorage.
 5. Create a new ModuleScript in ReplicatedStorage.Images
