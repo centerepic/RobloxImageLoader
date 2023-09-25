@@ -1,5 +1,5 @@
 # RobloxImageLoader
-## Entire suite of tools required to convert .png images to a ViewportCanvas format.
+## A suite of tools required to convert .png images to a ViewportCanvas format.
 ### This project relies on a modified version https://github.com/boatbomber/ViewportCanvas for in-game rendering.
 
 ## Setup
