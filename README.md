@@ -3,17 +3,11 @@
 ### This project relies on a modified version https://github.com/boatbomber/ViewportCanvas for in-game rendering.
 
 ## Setup
-1. Extract `image_encoder.rar` and install dependencies (PIL, json, os)
+1. Extract `image_encoder.rar`
 2. Drag your images into the `input` folder. (Must be .png)
-3. Run main.py.
+3. Run `png_to_rbxmx.exe`.
 4. Import `Modules.rbxm` into Roblox Studio and ungroup it in ReplicatedStorage.
-5. Create a new ModuleScript in ReplicatedStorage.Images
-6. Copy the text from the file created in the `output` folder into the ModuleScript so it looks like this -
-```lua
-  local module = {}
-    module.Image = '(text from the output file)'
-  return module
-```
+5. Drag the generated `.rbxmx` file in the output folder into your game and parent it to `ReplicatedStorage.Images`.
 
 ## Usage example
 ```lua
