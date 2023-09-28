@@ -4,7 +4,7 @@
 
 ## Setup
 1. Extract `image_encoder.rar`
-2. Drag your image into the `input` folder. (Must be .png)
+2. Drag your image into the `input` folder. (Must be .png) (Delete the sample image, it will only process the first image in the folder)
 3. Run `png_to_rbxmx.exe`.
 4. Import `Modules.rbxm` into Roblox Studio and ungroup it in ReplicatedStorage.
 5. Drag the generated `.rbxmx` file in the output folder into your game and parent it to `ReplicatedStorage.Images`.
