@@ -1,4 +1,7 @@
 # RobloxImageLoader
+
+## (This suite of tools is heavily deprecated by advances in the Roblox API, mainly EditableImages. There will be a rewritten version that generates a single data string version that can be loaded as a buffer into editableimages.)
+
 ## A suite of tools required to convert .png images to a ViewportCanvas format.
 ### This project relies on a modified version https://github.com/boatbomber/ViewportCanvas for in-game rendering.
 
